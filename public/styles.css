@@ -1,0 +1,37 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #34495e;
+}
+.container{  
+  border-radius: 20px;
+  margin: 200px auto;
+  width: 400px;
+  height: 180px;
+  background-color: #27ae60;
+}
+.horas{
+  font-family: 'Cherry Swash', cursive;
+  position: relative;
+  bottom: 55px;
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 100px;
+}
+.frase{
+  font-family: 'Montserrat Alternates', sans-serif;
+  position: relative;
+  bottom: 100px;
+  right: 175px;
+  color: white;
+  width: 750px;
+  font-size: 60px;
+  text-align: center;
+}
+@media (max-width:735px){
+  .frase{
+    font-size: 35px;
+  }
+}
